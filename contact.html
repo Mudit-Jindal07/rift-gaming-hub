@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact - Rift Gaming Hub</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-row">
+      <h1 class="logo">Rift Gaming Hub</h1>
+      <nav>
+        <ul class="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="leaderboard.html">Leaderboard</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container" style="padding-top:40px; padding-bottom:40px;">
+
+    <h2>Contact Us</h2>
+    <p>Use this form to send a message to the Rift Gaming Hub team (demo only — no server).</p>
+
+    <form action="#" method="get" class="contact-form">
+      <fieldset>
+
+        <label for="name">Your name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required><br><br>
+
+        <label for="reason">Reason for contact:</label><br>
+        <select id="reason" name="reason">
+          <option value="feedback">Feedback</option>
+          <option value="bug">Report a bug</option>
+          <option value="suggestion">Suggestion</option>
+          <option value="other">Other</option>
+        </select>
+      </fieldset>
+
+      <fieldset>
+        <legend>Message</legend>
+
+        <label for="message">Your message:</label><br>
+        <textarea id="message" name="message" rows="6" placeholder="Write your message here..."></textarea><br><br>
+
+        <label>
+          <input type="checkbox" name="subscribe" value="yes"> Subscribe to updates (optional)
+        </label>
+      </fieldset>
+
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Rift Gaming Hub | BY: Mudit Jindal</p>
+    </div>
+  </footer>
+
+</body>
+</html>
