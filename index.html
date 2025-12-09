@@ -6,15 +6,15 @@
   <title>Rift Gaming Hub</title>
   <link rel="stylesheet" href="styles.css">
 </head>
-<body class="home-page">
-
-
+<body>
+  
+  <!-- Navigation bar -->
   <header class="site-header">
     <div class="container header-row">
       <h1 class="logo">Rift Gaming Hub</h1>
       <nav>
         <ul class="nav">
-          <li><a href="#" class="active">Home</a></li>
+          <li><a href="index.html" class="active">Home</a></li>
           <li><a href="news.html">News</a></li>
           <li><a href="leaderboard.html">Leaderboard</a></li>
           <li><a href="contact.html">Contact</a></li>
@@ -23,18 +23,21 @@
     </div>
   </header>
 
+  <!-- Intro -->
   <section class="hero-full">
     <div class="hero-overlay"></div>
     <div class="container hero-content">
       <div class="hero-text">
         <h2>Welcome to <span>Rift Gaming Hub</span></h2>
         <p>Explore trending games, visuals, and galleries. Simple and clean — built with HTML &amp; CSS only.</p>
+        <a href="leaderboard.html" class="btn hero-btn" onclick="showLeaderboardMessage()">View Leaderboard</a>
       </div>
     </div>
   </section>
 
   <main class="container">
 
+    <!-- Main Game -->
     <section id="featured" class="featured">
       <h3>🔥 Featured Game</h3>
       <div class="featured-inner">
@@ -42,22 +45,24 @@
         <div class="featured-info">
           <h4>Neon Runner</h4>
           <p>A high-speed parkour adventure across neon rooftops. Leap and dash through a futuristic city.</p>
-          <p><strong>Genre:</strong> Action / Parkour • <strong>Release:</strong> 2025</p>
+          <p><b>Genre:</b> Action / Parkour</p> 
+          <p><b>Release:</b> 2025</p>
         </div>
       </div>
     </section>
 
+<!-- Baaki Games -->
     <section class="gallery">
       <h3>🎮 Game Gallery</h3>
       <div class="grid">
         <div class="card">
-          <img src="https://spacetup.com/cdn/shop/articles/SEOon_How_to_Create_the_Best_Gaming_Setup_e78e19bf-25c2-42aa-b210-349a89080cb7.jpg?v=1756607483&width=1280" alt="Gaming PC setup with RGB lights">
+          <img src="https://hyperspacelight.com/cdn/shop/articles/what-kind-of-lights-do-you-need-for-a-gaming-room.jpg?v=1686014978" alt="Gaming PC setup with RGB lights">
         </div>
         <div class="card">
-          <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/00f6ed51-f1ee-44ed-8e6f-ab16c838cef0/dfqyac1-0fd0d689-0b5b-49cd-bcc0-497d04670df4.jpg/v1/fill/w_1264,h_632,q_70,strp/sci_fi__cyberpunk_character_concepts_by_manthoslappas_dfqyac1-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTAwMCIsInBhdGgiOiIvZi8wMGY2ZWQ1MS1mMWVlLTQ0ZWQtOGU2Zi1hYjE2YzgzOGNlZjAvZGZxeWFjMS0wZmQwZDY4OS0wYjViLTQ5Y2QtYmNjMC00OTdkMDQ2NzBkZjQuanBnIiwid2lkdGgiOiI8PTEwMDAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.tzx-uh8V3r6oGcwrev7pBkxTboe4WTFMKFNTHdiKAj8" alt="Cyberpunk character artwork">
+          <img src="https://cdna.artstation.com/p/media_assets/images/images/001/126/576/large/cyberpunk-character-art.jpg?1686156584" alt="Cyberpunk character artwork">
         </div>
         <div class="card">
-          <img src="https://www.shutterstock.com/shutterstock/videos/1073566817/thumb/1.jpg?ip=x480" alt="Esports event scene with crowd">
+          <img src="https://www.esports.net/wp-content/uploads/2025/11/Top-the-Most-Viewed-Esports-Events-1024x569.jpg" alt="Esports event scene with crowd">
         </div>
         <div class="card">
           <img src="https://c8.alamy.com/comp/2BTGNXW/video-game-controller-closeup-from-console-against-monitor-screen-2BTGNXW.jpg" alt="Game controller and console close-up">
@@ -66,23 +71,26 @@
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5Y-SNI1iANTnVYSineAkF3Oc0plxAdszrbg&s" alt="Fantasy landscape from a game world">
         </div>
         <div class="card">
-          <img src="https://t3.ftcdn.net/jpg/09/06/42/06/360_F_906420666_mh3nbUqqDwACFrh3ltODXJyruvoZbueh.jpg" alt="First-person shooter action screenshot">
+          <img src="https://media.istockphoto.com/id/1479353034/photo/night-video-game-mock-up-concept-game-play-of-multiplayer-3d-shooter-fun-fps-for-pro-gamers.jpg?s=612x612&w=0&k=20&c=cHcKx_qzQaLzFB5CRVpLwkFsko3xb6DLQliv_42xOis=" alt="First-person shooter action screenshot">
         </div>
       </div>
     </section>
 
+    <!-- Website Info -->
     <section class="about">
       <h3>About Rift Gaming Hub</h3>
-      <p>Rift Gaming Hub is a student project for the SNW Capstone. Everything is built using only HTML and CSS with taught topics.</p>
+      <p>Rift Gaming Hub is a student project for the SNW Capstone. Everything is built using only HTML and CSS with taught topics, plus a few extra layout and animation properties.</p>
     </section>
 
   </main>
 
+  <!-- Footer -->
   <footer class="site-footer">
     <div class="container">
-      <p>&copy; 2025 Rift Gaming Hub | BY: Mudit Jindal</p>
+      <p>&copy; <span id="year"></span> Rift Gaming Hub | BY: Mudit Jindal</p>
     </div>
   </footer>
 
+  <script src="script.js"></script>
 </body>
 </html>
